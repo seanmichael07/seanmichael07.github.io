@@ -1,1 +1,301 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Sean Burrows | Developer for the Web</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
+            <a class="navbar-brand" href="#">Information Technology student, Brisbane Australia</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#projects">
+                            My Projects
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container hero-image">
+            <div class="hero-image-text mx.auto">
+                <h1>Sean Burrows</h1>
+                <p>Cyber Security/Information Technology student</p>
+                <p>Welcome to my resume</p>
+                <a href="#projects" class="btn btn-circle js-scroll-trigger">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
+            </div>
+        </div>
+        <div class="py-5 text-center" id="projects">
+            <div class="container-fluid pt-5">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Projects</h1>
+                    </div>
+                </div>
+                <div class="row">
+                   <div class="col-md-4 py-3" id="projects-img__container">
+                       <img class="img-fluid rounded" src="assets/images/portfolio.PNG" 
+                       alt="A screen grab of a high angle shot of a major city">
+                       <div class="modal-open__container mx-auto">
+                           <div class="modal-open-button__container">
+                               <button type="button" class="btn btn-info my-auto" data-toggle="modal" 
+                               data-target="#portfolioModal">Learn More</button>
+                           </div>
+                       </div>
+                       <h5 class="py-2">Portfolio</h5>
+                       <div class="modal fade" id="portfolioModal" role="dialog">
+                            <div class="modal-dialog">
+                                 <div class="modal-content">
+                                     <div class="modal-header">
+                                         <h4 class="modal-title">This Website</h4>
+                                         <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                     </div>
+                                     <div class="modal-body">
+                                         <p>I created this website to showcase my front-end development skills
+                                             as well as promote myself further. I first created this site as part 
+                                             of an assessment piece, but after some inspiration from a friend I 
+                                             decided to rework the site to express myself better.  
+                                             I was able to create this site without the need for automated software 
+                                             or templates. Please feel free to inspect my code. 
+                                         </p>
+                                     </div>
+                                 </div>
+                            </div>
+                        </div>
+                   </div>
+                   <div class="col-md-4 py-3" id="projects-img__container">
+                        <img class="img-fluid rounded" src="assets/images/DECO1800.PNG" 
+                        alt="An image of two large old naval sail ships floating on the sea">
+                        <div class="modal-open__container mx-auto">
+                            <div class="modal-open-button__container">
+                                <button type="button" class="btn btn-info my-auto" data-toggle="modal" 
+                                data-target="#DECO1800Modal">Learn More</button>
+                            </div>
+                        </div>
+                        <h5 class="py-2">DECO1800 - Convict Lyfe</h5>
+                        <div class="modal fade" id="DECO1800Modal" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">DECO1800 - Convict Lyfe</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h4>What was the project?</h4>
+                                        <p>Using standard HTML5 and CSS3 as well as vanilla javascript and jQuery, my team and I were tasked 
+                                            with conceptualising, refining and implementing a web-based application from data 
+                                            collected by the State Library of Queensland. 
+                                        </p>
+                                        <p>We created an educational tool aimed at teaching young primary school students about 
+                                            the life and history of Australian convicts. We created a click adventure that allowed 
+                                            users to explore as different convicts and earn their freedom by answering quiz questions. 
+                                            We aimed to create an immersive personalisable educational app that encouraged student 
+                                            learning.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                   <div class="col-md-4 py-3" id="projects-img__container">
+                        <img class="img-fluid rounded" src="assets/images/DECO1400.PNG" 
+                        alt="An image of of a starry universe">
+                        <div class="modal-open__container mx-auto">
+                            <div class="modal-open-button__container">
+                                <button type="button" class="btn btn-info my-auto" data-toggle="modal" 
+                                data-target="#DECO1400Modal">Learn More</button>
+                            </div>
+                        </div>
+                        <h5 class="py-2">DECO1400 - Infinity Books</h5>
+                        <div class="modal fade" id="DECO1400Modal" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">DECO1400 - Infinity Books</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Using only vanilla JavaScript and jQuery I created an interactive 
+                                            website based on a section from The Lord of the Rings books written 
+                                            by J.R.R Tolkein. It featured interactive elements and animations as 
+                                            well as a hand written carousel mode that displayed the story itself. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                   <div class="col-md-4 py-3" id="projects-img__container">
+                        <img class="img-fluid rounded" src="assets/images/placeholder.jpg" 
+                        alt="A placeholder stock image of a man typing on a laptop">
+                        <div class="modal-open__container mx-auto">
+                            <div class="modal-open-button__container">
+                                <button type="button" class="btn btn-info my-auto in-progress" data-toggle="modal" 
+                                data-target="#smartMirrorModal" disabled>Learn More</button>
+                                <p class="py-2">This project is currently in development</p>
+                            </div>
+                        </div>
+                        <h5 class="py-2">Smart Mirror</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-5 text-center bg-light" id="about-me">
+            <div class="container" id="about-me__inner">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>About Me</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 p-4" id="btn-append__end">
+                        <img class="img-fluid d-block rounded-circle mx-auto"  src="assets/images/selfie.png" 
+                        alt="A selfie of myself"><br>
+                        <h4>Sean Burrows</h4>
+                        <p><i>Aspiring Cyber Security Expert and Web Developer</i></p>
+                        <p>I am an enthusiastic student studying Information Technology majoring in Computer Systems and Netowrks at The University of Queensland. 
+                            I am interested in all things technology, from web development to information security protocols. 
+                            I love gaming to unwind from studies or just to unwind
+                        </p>
+                        <p>I am a very passionate learner and am constantly striving to expand knowledge, whether that be through video tutorials or a more hands 
+                            on approach be it side projects. Through my studies I have gained valuable skills in teamwork, leadership and understanding programming. 
+                        </p>
+                        <p>I am always interested in opportunities to expand my experience!</p><br>
+                    </div>
+                </div>
+                <button class="btn btn-outline-secondary" id="about-me__btn" type="button" data-toggle="collapse" data-target="#skillz-collapse">Read More</button>
+                <div class="collapse col-md-12" id="skillz-collapse">
+                    <div class="pt-5 bg-light">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1 class="pb-3">Technical Skills/Languages</h1>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 px-3">
+                                    <div class="text-center">
+                                        <h4 class="text-secondary">Frontend</h4>
+                                    </div>
+                                    <div class="row my-5">
+                                        <p class="text-left" style="width:85%" data-value="85">HTML5</p>
+                                        <progress max="100" value="85" class="html5">
+                                            <div class="progress-bar">
+                                                <span style="width: 85%">85%</span>
+                                            </div>
+                                        </progress>
+                                    </div>
+                                    <div class="row my-5">
+                                        <p class="text-left" style="width:85%" data-value="85">CSS3</p>
+                                        <progress max="100" value="85" class="css3">
+                                            <div class="progress-bar">
+                                                <span style="width: 85%">85%</span>
+                                            </div>
+                                        </progress>
+                                    </div>
+                                    <div class="row my-5">
+                                    <p class="text-left" style="width:75%" data-value="75">JavaScript/jQuery</p>
+                                    <progress max="100" value="75" class="jquery">
+                                        <div class="progress-bar">
+                                            <span style="width: 75%">75%</span>
+                                        </div>
+                                    </progress>
+                                    </div>
+                                </div>
+                                <div class="text-left col-md-6 pl-5">
+                                    <div class="text-center">
+                                        <h4 class="text-secondary">Backend</h4>
+                                    </div>
+                                    <div class="row my-5">
+                                        <p style="width:75%" data-value="75">Python</p>
+                                        <progress max="100" value="75" class="python">
+                                            <div class="progress-bar">
+                                                <span style="width: 75%">75%</span>
+                                            </div>
+                                        </progress>
+                                    </div>
+                                    <div class="row my-5">
+                                        <p style="width:45%" data-value="45">Java</p>
+                                        <progress max="100" value="45" class="java">
+                                            <div class="progress-bar">
+                                                <span style="width: 45%">45%</span>
+                                            </div>
+                                        </progress>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <section class="skillz my-5">
+                            <h1 class="text-center">Non-Technical Skills</h1>
+                            <ul>
+                                <li>Responsive layouts.</li>
+                                <li>Integration with external APIs, such as SLQ and Google Maps.</li>
+                                <li>Strong and adaptable visual design skills.</li>
+                                <li>User interface and experience design and tools (such as Photoshop).</li>
+                                <li>Adherence to accessibility standards and best practice</li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-5 bg-dark text-white" id="contact">
+            <div class="container" id="test">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center" id="test1">
+                        <h2 class="section-heading">Let's Get In Touch!</h2>
+                        <hr class="my-4">
+                        <p class="mb-5">Ready to start your next project with me? That's great! Give me a call or send me an email 
+                            and I will get back to you as soon as possible!
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 ml-auto text-center">
+                        <i class="fa fa-linkedin fa-3x mb-3 sr-contact" data-sr-id="8"></i>
+                        <p>
+                            <a href="https://www.linkedin.com/in/sean-burrows-733306160/" target="_blank">LinkedIn</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-4 mr-auto text-center">
+                        <i class="fa fa-envelope-o fa-3x mb-3 sr-contact" data-sr-id="9"></i>
+                        <p>
+                            <a href="mailto:sean.burrows@protonmail.com">sean.burrows@protonmail.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 mt-3 text-center">
+                        <p>If you would like to view my CV, you can <a href="assets/pdf/CV.pdf" target="_blank">here</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/navbar.js"></script>
+        <script src="js/hiddensection.js"></script>
+    </body>
+</html>
