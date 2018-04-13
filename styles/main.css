@@ -102,6 +102,10 @@ nav a {
     background: 0 0;
 }
 
+#projects {
+    background-color: #376888;
+}
+
 #projects-img__container img {
     opacity: 1;
     transition: .5s ease; 
