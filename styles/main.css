@@ -150,133 +150,65 @@ nav a {
     margin-left: 2%;
 }
 
-progress[value] {
-    appearance: none;
-    border: none;
-    width: 100%;
-    height: 20px;
-    background-color: whiteSmoke;
-    border-radius: 3px;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, .5) inset;
-    color: royalblue;
-    position: relative;
-    margin: 0 0 1.5em;
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
 }
 
-progress[value]::-webkit-progress-bar {
-    background-color: whiteSmoke;
-    border-radius: 3px;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, .5) inset;
+#front-end .dot:nth-of-type(1),
+#front-end .dot:nth-of-type(2),
+#front-end .dot:nth-of-type(3),
+#front-end .dot:nth-of-type(4),
+#front-end .dot:nth-of-type(5) {
+    background-color: #007bff;
 }
 
-progress[value]::-webkit-progress-value {
-    position: relative;
-    background-size: 35px 20px, 100% 100%, 100% 100%;
-    border-radius: 3px;
+#python .dot:nth-of-type(1),
+#python .dot:nth-of-type(2) {
+    background-color: #007bff;
 }
 
-progress[value]::-webkit-progress-value:after {
-    content: '';
-    position: absolute;
-    width: 5px;
-    height: 5px;
-    top: 7px;
-    right: 7px;
-    background-color: white;
-    border-radius: 100%;
+#java .dot:nth-of-type(1),
+#java .dot:nth-of-type(2),
+#java .dot:nth-of-type(3) {
+    background-color: #007bff;
 }
 
-progress[value]::-moz-progress-bar {
-    /* Gradient background with Stripes */
-    background-image: 
-    -moz-linear-gradient( 135deg, transparent, transparent 33%, 
-    rgba(0, 0, 0, .1) 33%, rgba(0, 0, 0, .1) 66%, transparent 66%), 
-    -moz-linear-gradient( top, rgba(255, 255, 255, .25), 
-    rgba(0, 0, 0, .2)), -moz-linear-gradient( left, #09c, #f44);
-    background-size: 35px 20px, 100% 100%, 100% 100%;
-    border-radius: 3px;
+#node .dot:nth-of-type(1),
+#node .dot:nth-of-type(2),
+#node .dot:nth-of-type(3) {
+    background-color: #007bff;
 }
 
-/* Fallback technique styles */
-
-.progress-bar {
-    background-color: whiteSmoke;
-    border-radius: 3px;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, .5) inset;
-    width: 100%;
-    height: 20px;
+#leadership .dot:nth-of-type(1),
+#leadership .dot:nth-of-type(2),
+#leadership .dot:nth-of-type(3),
+#leadership .dot:nth-of-type(4) {
+    background-color: #007bff;
 }
 
-.progress-bar span {
-    background-color: royalblue;
-    border-radius: 3px;
-    display: block;
-    text-indent: -9999px;
+#experience .dot:nth-of-type(1),
+#experience .dot:nth-of-type(2),
+#experience .dot:nth-of-type(3) {
+    background-color: #007bff;
 }
 
-p[data-value] {
-    position: relative;
-    left: 0;
+#achiever .dot:nth-of-type(1),
+#achiever .dot:nth-of-type(2),
+#achiever .dot:nth-of-type(3),
+#achiever .dot:nth-of-type(4) {
+    background-color: #007bff;
 }
 
-p[data-value]:after {
-    content: attr(data-value) '%';
-    position: absolute;
-    right: 0;
-}
-
-.html5::-webkit-progress-value,
-.python::-webkit-progress-value {
-    background-image: 
-    -webkit-linear-gradient( 135deg, transparent, transparent 33%, 
-    rgba(0, 0, 0, .1) 33%, rgba(0, 0, 0, .1) 66%, transparent 66%), 
-    -webkit-linear-gradient( top, rgba(255, 255, 255, .25), 
-    rgba(0, 0, 0, .2)), -webkit-linear-gradient( left, #09c, #f44);
-}
-
-.css3::-webkit-progress-value,
-.java::-webkit-progress-value {
-    background-image: 
-    -webkit-linear-gradient( 135deg, transparent, transparent 33%, 
-    rgba(0, 0, 0, .1) 33%, rgba(0, 0, 0, .1) 66%, transparent 66%), 
-    -webkit-linear-gradient( top, rgba(255, 255, 255, .25), 
-    rgba(0, 0, 0, .2)), -webkit-linear-gradient( left, #09c, #ff0);
-}
-
-.jquery::-webkit-progress-value,
-.node-js::-webkit-progress-value {
-    background-image: 
-    -webkit-linear-gradient( 135deg, transparent, transparent 33%, 
-    rgba(0, 0, 0, .1) 33%, rgba(0, 0, 0, .1) 66%, transparent 66%), 
-    -webkit-linear-gradient( top, rgba(255, 255, 255, .25), 
-    rgba(0, 0, 0, .2)), -webkit-linear-gradient( left, #09c, #690);
-}
-
-.html5::-moz-progress-bar,
-.java::-moz-progress-bar {
-    background-image:
-     -moz-linear-gradient( 135deg, transparent, transparent 33%, 
-     rgba(0, 0, 0, .1) 33%, rgba(0, 0, 0, .1) 66%, transparent 66%), 
-     -moz-linear-gradient( top, rgba(255, 255, 255, .25), 
-     rgba(0, 0, 0, .2)), -moz-linear-gradient( left, #09c, #f44);
-}
-
-.css3::-moz-progress-bar,
-.java::-moz-progress-bar {
-    background-image: 
-    -moz-linear-gradient( 135deg, transparent, transparent 33%, 
-    rgba(0, 0, 0, .1) 33%, rgba(0, 0, 0, .1) 66%, transparent 66%), 
-    -moz-linear-gradient( top, rgba(255, 255, 255, .25), 
-    rgba(0, 0, 0, .2)), -moz-linear-gradient( left, #09c, #ff0);
-}
-
-.jquery::-moz-progress-bar,
-.node-js::-moz-progress-bar {
-    background-image: 
-    -moz-linear-gradient( 135deg, transparent, transparent 33%, 
-    rgba(0, 0, 0, .1) 33%, rgba(0, 0, 0, .1) 66%, transparent 66%),
-     -moz-linear-gradient( top, rgba(255, 255, 255, .25), 
-     rgba(0, 0, 0, .2)), -moz-linear-gradient( left, #09c, #690);
+#interests .dot:nth-of-type(1),
+#interests .dot:nth-of-type(2),
+#interests .dot:nth-of-type(3),
+#interests .dot:nth-of-type(4),
+#interests .dot:nth-of-type(5) {
+    background-color: #007bff;
 }
 
 section.skillz > ul {
