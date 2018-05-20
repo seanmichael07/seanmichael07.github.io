@@ -102,31 +102,6 @@ nav a {
     background: 0 0;
 }
 
-#projects-img__container img {
-    opacity: 1;
-    transition: .5s ease; 
-    backface-visibility: hidden; 
-}
-
-#projects-img__container .modal-open__container {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-#projects-img__container:hover img {
-    opacity: 0.3;
-}
-
-#projects-img__container:hover .modal-open__container {
-    opacity: 1;
-}
-
 .modal-open-button__container:hover > button {
     cursor: pointer;
 }
@@ -140,11 +115,19 @@ nav a {
     padding: 2% 0 2% 0;
 }
 
+#about-me {
+    height: 100vh;
+}
+
 #about-me__inner>div.row,
 #about-me__inner>div#skillz-collapse {
     padding: 0% 0% 0% 2%;
 }
 
+#skills {
+    padding-top: 20%; 
+    height: 100vh;
+}
 #skills p {
     color: #333;
 }
@@ -208,6 +191,35 @@ nav a {
 #interests .dot:nth-of-type(4),
 #interests .dot:nth-of-type(5) {
     background-color: #007bff;
+}
+
+#projects {
+    height: 100vh;
+}
+
+#projects-img__container img {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+#projects-img__container .modal-open__container {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#projects-img__container:hover img {
+    opacity: 0.3;
+}
+
+#projects-img__container:hover .modal-open__container {
+    opacity: 1;
 }
 
 #contact {
