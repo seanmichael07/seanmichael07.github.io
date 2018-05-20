@@ -194,10 +194,6 @@ nav a {
     background-color: #007bff;
 }
 
-#projects {
-    height: 100vh;
-}
-
 #projects-img__container img {
     opacity: 1;
     transition: .5s ease;
